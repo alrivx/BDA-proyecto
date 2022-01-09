@@ -33,4 +33,5 @@ SID_LIST_LISTENER =
     )
   )">> /u01/app/oracle/product/19.3.0/dbhome_1/network/admin/listener.ora
 
-
+lsnrctl stop
+lsrnctl start
