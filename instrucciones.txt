@@ -1,0 +1,5 @@
+1. Cambia dueño a oracle:oinstall y agrega permisos de ejecución
+2. Ejecuta scripts 1 y 2, al ejecutar el 2 se te pedirá que ingreses manualmente la contraseña hola1234*
+3. Verifica que ORACLE_SID sea cbrnproy, sino exportala antes de ejecutar script 3
+4. ingresa sin loguearte (sqlplus /nolog), ejecuta scripts 3, 4 y 5
+5. Continuar con la ejecución secuencial de los scripts, no es necesario llamar a los que empiezan con "xx", son llamados automáticamente
