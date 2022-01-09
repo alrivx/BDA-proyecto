@@ -1,7 +1,6 @@
--- Autor: Alejandro Rivera Nagano
--- Fecha: 28 de Septiembre de 2021
--- Descripcion:
--- cambiar manual passwords de sys y system
+-- @Autor: Héctor Eduardo Cabrera Beltrán & Alejandro Rivera Nagano
+-- @Fecha: 6 de enero de 2022
+-- Descripción: Ejecución de scripts Oracle que crean el diccionario de datos de la BD
 connect sys/system as sysdba
 @?/rdbms/admin/catalog.sql
 @?/rdbms/admin/catproc.sql

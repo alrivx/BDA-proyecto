@@ -25,6 +25,6 @@ create user admin_contenido identified by admin_contenido
 grant create session, create table, create sequence to admin_contenido;
 
 create user admin_backup identified by admin_backup;
-grant sysbackup to admin_backup;
+grant create session, create table, sysbackup to admin_backup;
 
 
