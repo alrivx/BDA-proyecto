@@ -1,4 +1,4 @@
-connect target "admin_backup/admin_backup@cbrnproy as sysbackup"
+connect target "admin_backup/admin_backup@cariproy as sysbackup"
 run {
   backup database plus archivelog tag mediastream_full_inicial;
 }

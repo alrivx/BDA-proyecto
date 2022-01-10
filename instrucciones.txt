@@ -3,3 +3,10 @@
 3. Verifica que ORACLE_SID sea cbrnproy, sino exportala antes de ejecutar script 3
 4. ingresa sin loguearte (sqlplus /nolog), ejecuta scripts 3, 4 y 5
 5. Continuar con la ejecución secuencial de los scripts, no es necesario llamar a los que empiezan con "xx", son llamados automáticamente
+
+V2.
+1. Ejecutar s-01-crea-directorios.sh como root
+2. Ejecutar s-02-crea-pass-param-file.sh como ORACLE
+3. Verifica que ORACLE_SID sea cariproy, sino exportala antes de ejecutar script 3
+4. Ejecutar todos los scripts .sql con el usuario ordinario
+5. Ejecutar s-06-configura-listener.sh como ORACLE
