@@ -9,4 +9,5 @@ V2.
 2. Ejecutar s-02-crea-pass-param-file.sh como ORACLE
 3. Verifica que ORACLE_SID sea cariproy, sino exportala antes de ejecutar script 3
 4. Ejecutar todos los scripts .sql con el usuario ordinario
-5. Ejecutar s-06-configura-listener.sh como ORACLE
+5. Ejecutar s-06-configura-listener.sh como ORACLE, verifica que ORACLE_SID sea cariproy
+6. Ejecutar los scripts s-13 y s-15 como ORACLE, verifica que ORACLE_SID sea cariproy

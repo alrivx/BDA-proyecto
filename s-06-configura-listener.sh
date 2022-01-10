@@ -24,3 +24,14 @@ CARIPROY_SHARED =
     )
   )">> /u01/app/oracle/product/19.3.0/dbhome_1/network/admin/tnsnames.ora
 
+echo "
+SID_LIST_LISTENER =
+  (SID_LIST =
+    (SID_DESC =
+      (SID_NAME = cbrnproy)
+      (GLOBAL_DBNAME = cbrnproy.fi.unam)
+    )
+  )">> /u01/app/oracle/product/19.3.0/dbhome_1/network/admin/listener.ora
+
+lsnrctl stop
+lsrnctl start

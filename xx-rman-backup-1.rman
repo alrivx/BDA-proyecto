@@ -1,4 +1,9 @@
 connect target "admin_backup/admin_backup@cariproy as sysbackup"
 run {
-  backup database plus archivelog tag mediastream_full_inicial;
+  shutdown immediate;
+  startup mount;
+  allocate channel d1 type disk;
+  backup as backupset database
+    format '/u01/app/oracle/oradata/CARIPROY/disk_4/backup/ora_df_%t_%d_%s_%p';
+  alter database open;
 }
