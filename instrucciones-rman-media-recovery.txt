@@ -1,0 +1,35 @@
+Complete media recovery
+
+1. Manual
+    (requiere haber respaldado 'backup database...'
+  Eliminar datafile manualmente
+  Hacer shutdown abort si la instancia está levantada
+  Hacer startup mount
+  RMAN> list failure;
+  RMAN> advise failure;   -> indicará el datafile a recuperar
+  RMAN> restore datafile n;
+  RMAN> recover datafile n;
+  SQL> alter database datafile n online;
+  SQL> alter database open;
+
+
+
+2. Mediante Fast Recovery Area
+  (requiere haber respaldado 'backup as copy <database|datafile>...'
+  RMAN> report schema;   -> indicará datafiles, buscar el dañado
+  RMAN> list copy of datafile n;
+  SQL> alter database datafile n offline;
+  RMAN> switch datafile n to copy;
+  RMAN> recover datafile n;
+  SQL> alter database datafile n online;
+
+-- Hasta este punto la instancia está usando el datafile de respaldo
+-- Finalmente hay que "respaldarlo" en la ubicación original y hacer que 
+-- sea el que la instancia utilice
+
+  RMAN> backup as copy datafile n format '/u01/app/oracle/oradata/CBRNPROY/disk_2/usuarios_tbs.dbf';
+  SQL> alter database datafile n offline;
+  RMAN> switch datafile n to copy;
+  RMAN> recover datafile n;
+  SQL> alter database datafile n online;
+

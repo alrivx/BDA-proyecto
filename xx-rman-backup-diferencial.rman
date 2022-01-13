@@ -1,0 +1,6 @@
+connect target "admin_backups/admin_backups@cariproy as sysbackup"
+run {
+  allocate channel d1 type disk;
+  backup incremental level 1 database plus archivelog tag mediastream_diferencial;
+  show all;
+}

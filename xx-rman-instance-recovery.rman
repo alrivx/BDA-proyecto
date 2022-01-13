@@ -1,0 +1,7 @@
+connect target "admin_backups/admin_backups@cariproy as sysbackup"
+run {
+  shutdown abort;
+  startup mount;
+  recover database;
+  alter database open;
+}

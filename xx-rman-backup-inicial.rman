@@ -1,0 +1,10 @@
+connect target "admin_backups/admin_backups@cariproy as sysbackup"
+run {
+  configure channel device type disk 
+    format '/u01/app/oracle/CARIPROY/disk_4/backup/ora_df%t_%s_%p_%u';
+  configure controlfile autobackup format for device type disk 
+    to '/u01/app/oracle/oradata/CARIPROY/disk_4/control/ctlfile%F.bkup';
+  allocate channel d1 type disk;
+  backup database plus archivelog tag mediastream_full_inicial;
+  show all;
+}

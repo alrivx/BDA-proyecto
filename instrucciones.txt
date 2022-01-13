@@ -13,3 +13,11 @@ V2.
 6. Ejecutar los scripts s-08 y s-09 como ORACLE conectado como SYS
 7. Ejecutar los scripts s-13 y s-15 como ORACLE, verifica que ORACLE_SID sea cariproy
 8. Ejecutar el script s-16 como ORACLE conectado como SYS
+
+V3. 
+1. Da permisos de ejecucion y cambia dueño a oracle:oinstall
+2. ejecuta s-01-main
+3. verifica ORACLE_SID, ejecuta s-02-main
+4. verifica que no tengas problema al ingresar con listener aunque la instancia esté abajo
+4. Ejecuta los main
+
