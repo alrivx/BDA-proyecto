@@ -1001,3 +1001,14 @@ update comentario set texto = 'Duis aliquam convallis nunc.'where comentario_id=
 update comentario set texto = 'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.'where comentario_id= 998;
 update comentario set texto = 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.'where comentario_id= 999;
 update comentario set texto = 'Suspendisse potenti.'where comentario_id= 1000;
+commit;
+
+
+
+connect admin_contenido/admin_contenido
+update seccion set contenido=fx_carga_blob('DIR_TMP','blob'||round(dbms_random.value(1,10))||'.mp3') where seccion_id=1;
+update seccion set contenido=fx_carga_blob('DIR_TMP','blob'||round(dbms_random.value(1,10))||'.mp3') where seccion_id=2;
+update seccion set contenido=fx_carga_blob('DIR_TMP','blob'||round(dbms_random.value(1,10))||'.mp3') where seccion_id=3;
+update seccion set contenido=fx_carga_blob('DIR_TMP','blob'||round(dbms_random.value(1,10))||'.mp3') where seccion_id=4;
+update seccion set contenido=fx_carga_blob('DIR_TMP','blob'||round(dbms_random.value(1,10))||'.mp3') where seccion_id=5;
+commit;

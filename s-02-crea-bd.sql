@@ -10,18 +10,18 @@ create database CARIPROY
   logfile group 1(
     '/u01/app/oracle/oradata/CARIPROY/disk_1/redo01a.log',
     '/u01/app/oracle/oradata/CARIPROY/disk_4/onlineredo/redo01b.log',
-    '/u01/app/oracle/oradata/CARIPROY/disk_5/fra/redo01c.log'
-  ) size 50m blocksize 512,
+    '/u01/app/oracle/oradata/CARIPROY/disk_5/redo01c.log'
+  ) size 64m blocksize 512,
   group 2(
     '/u01/app/oracle/oradata/CARIPROY/disk_1/redo02a.log',
     '/u01/app/oracle/oradata/CARIPROY/disk_4/onlineredo/redo02b.log',
-    '/u01/app/oracle/oradata/CARIPROY/disk_5/fra/redo02c.log'
-  ) size 50m blocksize 512,
+    '/u01/app/oracle/oradata/CARIPROY/disk_5/redo02c.log'
+  ) size 64m blocksize 512,
   group 3(
     '/u01/app/oracle/oradata/CARIPROY/disk_1/redo03a.log',
     '/u01/app/oracle/oradata/CARIPROY/disk_4/onlineredo/redo03b.log',
-    '/u01/app/oracle/oradata/CARIPROY/disk_5/fra/redo03c.log'
-  ) size 50m blocksize 512
+    '/u01/app/oracle/oradata/CARIPROY/disk_5/redo03c.log'
+  ) size 64m blocksize 512
   maxloghistory 1
   maxlogfiles 16
   maxlogmembers 3

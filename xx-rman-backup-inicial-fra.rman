@@ -3,6 +3,6 @@ run {
   configure channel device type disk clear;
   configure controlfile autobackup format for device type disk clear;
   allocate channel d2 type disk;
-  backup database plus archivelog tag mediastream_full_inicial;
+  backup database plus archivelog tag level_0_full;
   show all;
 }

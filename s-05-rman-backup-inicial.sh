@@ -1,2 +1,4 @@
+echo "Realizando backup a DISCO"
 rman @xx-rman-backup-inicial.rman
-#rman @xx-rman-backup-inicial-fra.rman
+echo "Realizando backup a FRA"
+rman @xx-rman-backup-inicial-fra.rman
