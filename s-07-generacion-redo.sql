@@ -1,6 +1,5 @@
 connect admin_usuarios/admin_usuarios
 
-update comentario set '' where comentario_id=
 update comentario set texto = 'Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.'where comentario_id= 1;
 update comentario set texto = 'Aenean lectus.'where comentario_id= 2;
 update comentario set texto = 'Donec quis orci eget orci vehicula condimentum.'where comentario_id= 3;

@@ -3,7 +3,7 @@ run {
   configure controlfile autobackup format for device type disk 
     to '/u01/app/oracle/oradata/CARIPROY/disk_4/control/ctlfile%F.bkup';
   allocate channel d1 type disk;
-  backup as copy database plus archivelog
-    format '/u01/app/oracle/oradata/CARIPROY/disk_4/backup/full_copy_ini%t_%s_%p_%u';
+  backup database plus archivelog
+    format '/u01/app/oracle/oradata/CARIPROY/disk_4/backup/full_copy_2%t_%s_%p_%u';
   show all;
 }

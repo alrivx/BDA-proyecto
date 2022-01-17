@@ -1,6 +1,6 @@
-alter tablespace tbs_usuarios nologging;
-alter tablespace tbs_contenido_datos nologging;
-alter tablespace tbs_contenido_blobs nologging;
+--alter tablespace tbs_usuarios nologging;
+--alter tablespace tbs_contenido_datos nologging;
+--alter tablespace tbs_contenido_blobs nologging;
 Prompt =======================
 Prompt Cargando registros iniciales...
 @s-05-carga-inicial.sql
