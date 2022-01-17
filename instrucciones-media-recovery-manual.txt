@@ -1,0 +1,9 @@
+  Eliminar datafile manualmente
+  Hacer shutdown abort si la instancia está levantada
+  Hacer startup mount
+  RMAN> list failure;
+  RMAN> advise failure;   -> indicará el datafile a recuperar
+  RMAN> restore datafile n;
+  RMAN> recover datafile n;
+  SQL> alter database datafile n online;
+  SQL> alter database open;
