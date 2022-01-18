@@ -1,7 +1,7 @@
 #!/bin/bash
-# Autor: Alejandor Rivera Nagano
-# Fecha: 26 de septiembre de 2021
-# Descripción: creación de archivo de passwords y archivo de parametros
+# Autor:       Héctor E. Cabrera Beltrán & Alejandor Rivera Nagano
+# Fecha:       07 de enero de 2022
+# Descripción: Creación de archivo de passwords y archivo de parámetros.
 
 export ORACLE_SID=cariproy
 

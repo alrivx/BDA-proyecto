@@ -1,3 +1,7 @@
+# Autor:         Héctor E. Cabrera Beltrán & Alejandor Rivera Nagano
+# Fecha:         08 de enero de 2022
+# Descripción:   Configuración del archivo tnsnames.ora y listener.ora
+
 echo "
 CARIPROY =
   (DESCRIPTION =

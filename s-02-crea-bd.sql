@@ -1,6 +1,7 @@
--- Autor: Alejandro Rivera Nagano
--- Fecha: 28 de Septiembre de 2021
--- Descripcion:
+--@Autor:       Héctor E. Cabrera Beltrán & Alejandro Rivera Nagano
+--@Fecha:       08 de enero de 2022
+--@Descripción: Creación de la BD CARIPROY y cambia contraseña de SYS y SYSTEM.
+
 connect sys/hola1234* as sysdba
 startup nomount
 whenever sqlerror exit rollback;

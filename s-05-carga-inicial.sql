@@ -1,3 +1,7 @@
+--@Autor:           Héctor E. Cabrera Beltrán & Alejandro Rivera Nagano
+--@Fecha creación:  9 de enero de 2022
+--@Descripción:     Carga inicial de registros.
+
 -- insertando en orden de dependencia	
 connect admin_contenido/admin_contenido
 @xx-carga-m2-genero.sql

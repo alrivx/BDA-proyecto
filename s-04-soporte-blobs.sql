@@ -1,3 +1,7 @@
+--@Autor:           Héctor E. Cabrera Beltrán & Alejandro Rivera Nagano
+--@Fecha creación:  9 de enero de 2022
+--@Descripción:     Script empleado para configurar el soporte de datos BLOB.
+
 connect admin_contenido/admin_contenido
 Prompt Creando objetos para leer datos BLOB
 

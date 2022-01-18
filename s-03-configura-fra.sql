@@ -1,3 +1,7 @@
+--@Autor:         Héctor E. Cabrera Beltrán & Alejandor Rivera Nagano
+--@Fecha:         08 de enero de 2022
+--@Descripción:   Configuración de la Fast Recovery Area.
+
 connect sys/system as sysdba
 -- Parámetros FRA
 alter system set db_recovery_file_dest_size=6g scope=both;

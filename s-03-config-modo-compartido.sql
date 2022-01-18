@@ -1,3 +1,7 @@
+--@Autor:         Héctor E. Cabrera Beltrán & Alejandor Rivera Nagano
+--@Fecha:         08 de enero de 2022
+--@Descripción:   Configuración del modo compartido.
+
 connect sys/system as sysdba
 alter system set db_domain="fi.unam" scope=spfile;
 shutdown
@@ -10,5 +14,5 @@ show parameter shared_servers;
 
 alter system register;
 
-prompt ejecutar 'lsnrctl services' como oracle
+prompt Ejecutar 'lsnrctl services' como oracle
 

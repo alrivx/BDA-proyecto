@@ -1,7 +1,9 @@
+--@Autor:         Héctor E. Cabrera Beltrán & Alejandor Rivera Nagano
+--@Fecha:         08 de enero de 2022
+--@Descripción:   Creación de usuarios y otorgamiento de privilegios.
+
 connect sys/system as sysdba
---drop user admin_usuarios cascade;
---drop user admin_contenido cascade;
---drop user admin_backups cascade;
+
 -- Usuario admin del modulo 1 (usuarios)
 create user admin_usuarios identified by admin_usuarios
   default tablespace tbs_usuarios

@@ -1,3 +1,7 @@
+-- @Autor:        Héctor Eduardo Cabrera Beltrán & Alejandro Rivera Nagano
+-- @Fecha:        9 de enero de 2022
+-- @Descripción:  Creación de las tablas del módulo 1 (Usuarios).
+
 --Modulo 1: Usuarios
 connect admin_usuarios/admin_usuarios
 -- Tabla: plan 

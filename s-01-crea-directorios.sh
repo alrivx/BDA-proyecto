@@ -1,7 +1,9 @@
-# Autor: Alejandro Rivera Nagano
-# Fecha: 28 de Septiembre de 2021
+#!/bin/bash
+# Autor:       Héctor E. Cabrera Beltrán & Alejandro Rivera Nagano
+# Fecha:       07 de enero de 2022
 # Descripcion: Creacion de directorios donde se guardarán data files, 
-#  archivos de control y redo logs de la BD que será creada posteriormente
+#              archivos de control y redo logs de la BD que será creada posteriormente.
+
 mkdir -p /u01/app/oracle/oradata/CARIPROY/disk_1
 chown oracle:oinstall /u01/app/oracle/oradata/CARIPROY/disk_1
 chmod 750 /u01/app/oracle/oradata/CARIPROY/disk_1

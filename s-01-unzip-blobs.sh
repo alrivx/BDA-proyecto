@@ -1,4 +1,8 @@
 #!/bin/bash
+# Autor:       Héctor E. Cabrera Beltrán & Alejandor Rivera Nagano
+# Fecha:       07 de enero de 2022
+# Descripción: Copia archivos MP3 para la carga de BLOBs.
+
 mkdir -p /tmp/bda/proyecto-final/blobs
 cp blobs/blob1.mp3 /tmp/bda/proyecto-final/blobs/blob1.mp3
 cp blobs/blob1.mp3 /tmp/bda/proyecto-final/blobs/blob2.mp3

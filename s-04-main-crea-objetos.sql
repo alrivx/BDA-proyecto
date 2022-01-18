@@ -1,3 +1,8 @@
+--@Autor:         Héctor E. Cabrera Beltrán & Alejandor Rivera Nagano
+--@Fecha:         9 de enero de 2022
+--@Descripción:   Archivo principal con la cración de usuarios, tablas,
+--                restricciones y preparación para la carga de BLOBs.
+
 connect sys/system as sysdba
 Prompt ==========================
 Prompt Creando usuarios de la BD...

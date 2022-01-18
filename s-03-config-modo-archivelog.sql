@@ -1,3 +1,7 @@
+--@Autor:         Héctor E. Cabrera Beltrán & Alejandor Rivera Nagano
+--@Fecha:         08 de enero de 2022
+--@Descripción:   Configuración del modo archivelog.
+
 -- Respaldo spfile antes de configurar archivelog
 create pfile='$ORACLE_BASE/oradata/CARIPROY/respaldo-pfile.txt' from spfile;
 !mkdir -p $ORACLE_BASE/oradata/CARIPROY/disk_4/archive

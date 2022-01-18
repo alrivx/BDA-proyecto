@@ -1,3 +1,8 @@
+--@Autor:         Héctor E. Cabrera Beltrán & Alejandor Rivera Nagano
+--@Fecha:         08 de enero de 2022
+--@Descripción:   Archivo principal con la configuración de la FRA, modo archivelog,
+--                y RMAN.
+
 connect sys/system as sysdba
 Prompt =============================
 Prompt Configurando listener... revisar tnsnames y listener.ora

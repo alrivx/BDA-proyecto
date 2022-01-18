@@ -1,3 +1,7 @@
+-- @Autor:        Héctor Eduardo Cabrera Beltrán & Alejandro Rivera Nagano
+-- @Fecha:        9 de enero de 2022
+-- @Descripción:  Creación de las tablas del módulo 2 (Contenido).
+
 -- Modulo 2: Contenido
 connect admin_contenido/admin_contenido
 -- Tabla: genero 

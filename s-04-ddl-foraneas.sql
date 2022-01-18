@@ -1,7 +1,7 @@
--- @Autor: Héctor Eduardo Cabrera Beltrán & Alejandro Rivera Nagano
--- @Fecha: 9 de enero de 2022
--- @Descripción: Otorgamiento de permisos necesarios para referenciar 
---    y hacer selecciones sobre tablas en otros esquemas 
+-- @Autor:        Héctor Eduardo Cabrera Beltrán & Alejandro Rivera Nagano
+-- @Fecha:        9 de enero de 2022
+-- @Descripción:  Otorgamiento de permisos necesarios para referenciar 
+--                y hacer selecciones sobre tablas en otros esquemas.
 
 connect sys/system as sysdba
 Prompt Otorgando permisos de selección a ambos usuarios sobre todas las tablas

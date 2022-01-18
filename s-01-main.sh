@@ -1,4 +1,8 @@
 #!/bin/bash
+# Autor:       Héctor E. Cabrera Beltrán & Alejandor Rivera Nagano
+# Fecha:       07 de enero de 2022
+# Descripción: Archivo principal con la creación de objetos iniciales.
+
 echo "======================================"
 echo "Creando directorios que usará la BD"
 ./s-01-crea-directorios.sh

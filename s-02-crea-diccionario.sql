@@ -1,7 +1,8 @@
--- Autor: Alejandro Rivera Nagano
--- Fecha: 28 de Septiembre de 2021
--- Descripcion:
--- cambiar manual passwords de sys y system
+--@Autor:       Héctor E. Cabrera Beltrán & Alejandro Rivera Nagano
+--@Fecha:       08 de enero de 2022
+--@Descripción: Ejecuta los scripts encargados de crear todas las tablas
+--              y vistas que integran al diccionario de datos.
+
 connect sys/system as sysdba
 @?/rdbms/admin/catalog.sql
 @?/rdbms/admin/catproc.sql

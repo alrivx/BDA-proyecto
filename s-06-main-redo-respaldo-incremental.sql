@@ -1,3 +1,8 @@
+--@Autor:           Héctor E. Cabrera Beltrán & Alejandro Rivera Nagano
+--@Fecha creación:  9 de enero de 2022
+--@Descripción:     Archivo principal con la generación de datos REDO y
+--                  generación de backups diferenciales.
+
 Prompt =========================
 Prompt Generando datos REDO...
 @s-06-generacion-redo-1.sql

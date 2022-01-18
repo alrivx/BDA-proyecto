@@ -1,6 +1,7 @@
---alter tablespace tbs_usuarios nologging;
---alter tablespace tbs_contenido_datos nologging;
---alter tablespace tbs_contenido_blobs nologging;
+--@Autor:           Héctor E. Cabrera Beltrán & Alejandro Rivera Nagano
+--@Fecha creación:  9 de enero de 2022
+--@Descripción:     Archivo principal para la carga inicial y backup inicial.
+
 Prompt =======================
 Prompt Cargando registros iniciales...
 @s-05-carga-inicial.sql
